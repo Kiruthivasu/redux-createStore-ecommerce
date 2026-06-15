@@ -1,16 +1,77 @@
-# React + Vite
+# 🛒 My E-Commerce Store (React + Classic Redux)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple e-commerce shopping cart application built using **React** and **traditional Redux (createStore)** for state management.
 
-Currently, two official plugins are available:
+This project demonstrates how Redux manages global application state using actions, reducers, and a centralized store.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+🔗 https://Kiruthivasu.github.io/redux-createStore-ecommerce/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📌 Features
 
-## Expanding the ESLint configuration
+- 🛍️ Display products
+- ➕ Add products to cart
+- ❌ Remove products from cart
+- 💰 Automatic total price calculation
+- ⚡ Global state management using Redux
+- 🎨 Responsive and clean UI design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+- React.js
+- Redux
+- React-Redux
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Vite
+
+
+```
+
+## 🧠 Redux Concepts Used
+
+- Actions
+- Reducers
+- createStore()
+- useSelector()
+- useDispatch()
+- Provider
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Kiruthivasu/redux-createStore-ecommerce.git
+```
+
+Go to project folder:
+
+```bash
+cd redux-createStore-ecommerce
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the project:
+
+```bash
+npm run dev
+```
+
+## 📸 Screenshot
+
+![E-Commerce Store](screenshot.png)
+
+## 👨‍💻 Author
+
+**Kiruthivasu**
+
+GitHub:
+https://github.com/Kiruthivasu
