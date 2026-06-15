@@ -65,10 +65,6 @@ Run the project:
 npm run dev
 ```
 
-## 📸 Screenshot
-
-![E-Commerce Store](screenshot.png)
-
 ## 👨‍💻 Author
 
 **Kiruthivasu**
