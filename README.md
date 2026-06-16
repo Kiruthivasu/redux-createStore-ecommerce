@@ -1,40 +1,39 @@
-# 🛒 My E-Commerce Store (React + Classic Redux)
+# 🛒 My E-Commerce Store (React + Redux Toolkit)
 
-A simple e-commerce shopping cart application built using **React** and **traditional Redux (createStore)** for state management.
+A simple e-commerce shopping cart application built using **React and Redux Toolkit (createSlice)** for modern state management.
 
-This project demonstrates how Redux manages global application state using actions, reducers, and a centralized store.
+This project demonstrates how Redux Toolkit manages global application state using **createSlice, reducers, actions, and a centralized store** with minimal boilerplate code.
 
 ## 🚀 Live Demo
 
-🔗 https://Kiruthivasu.github.io/redux-createStore-ecommerce/
+🔗 https://Kiruthivasu.github.io/redux-createSlice-ecommerce/
 
 ## 📌 Features
 
-- 🛍️ Display products
-- ➕ Add products to cart
-- ❌ Remove products from cart
-- 💰 Automatic total price calculation
-- ⚡ Global state management using Redux
-- 🎨 Responsive and clean UI design
+🛍️ Display products  
+➕ Add products to cart  
+❌ Remove products from cart  
+🔄 Increase / decrease product quantity  
+💰 Automatic total price calculation  
+⚡ Global state management using Redux Toolkit  
+🎨 Responsive and clean UI design  
 
 ## 🛠️ Technologies Used
 
 - React.js
-- Redux
+- Redux Toolkit
 - React-Redux
 - JavaScript (ES6+)
 - HTML5
 - CSS3
 - Vite
 
+## 🧠 Redux Toolkit Concepts Used
 
-```
-
-## 🧠 Redux Concepts Used
-
+- configureStore()
+- createSlice()
 - Actions
 - Reducers
-- createStore()
 - useSelector()
 - useDispatch()
 - Provider
@@ -44,13 +43,13 @@ This project demonstrates how Redux manages global application state using actio
 Clone the repository:
 
 ```bash
-git clone https://github.com/Kiruthivasu/redux-createStore-ecommerce.git
+git clone https://github.com/Kiruthivasu/redux-createSlice-ecommerce.git
 ```
 
 Go to project folder:
 
 ```bash
-cd redux-createStore-ecommerce
+cd redux-createSlice-ecommerce
 ```
 
 Install dependencies:
@@ -65,9 +64,15 @@ Run the project:
 npm run dev
 ```
 
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
 ## 👨‍💻 Author
 
-**Kiruthivasu**
+Kiruthivasu
 
 GitHub:
 https://github.com/Kiruthivasu
